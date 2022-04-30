@@ -129,7 +129,7 @@ body::-webkit-scrollbar {
 
 .mainBackground{
     top: -20px; 
-    left: -10px;
+    left: -5px;
     position: relative;
     display: block;
     background-image: url("../images/background.jpeg");
@@ -781,6 +781,10 @@ span{
         animation-duration: 35s;
     }
 
+    .mainBackground{
+        top: -30px;
+    }
+
 }
 
 @media (max-width: 690px){
@@ -928,6 +932,11 @@ span{
 
 @media (max-width: 425px){
 
+    .mainBackground{
+        height: 90vh;
+        left: 2px;
+    }
+
     .list li{
         margin: 40px  0px;
     }
@@ -972,7 +981,11 @@ span{
 }
 
 @media (max-width: 320px){
-    
+
+    .mainBackground{
+        height:85vh;
+        left: 17px;
+    }
     
     .mainContent img{
         max-width: 300px;
