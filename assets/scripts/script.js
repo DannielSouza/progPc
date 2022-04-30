@@ -132,7 +132,7 @@ const btnMobile = document.getElementById("btnMobile")
 
 function toggleMenu(event){
     if(event.type === 'touchstart') event.preventDefalt()
-    const nav = document.getElementById("navId")
+    var nav = document.getElementById("navId")
     nav.classList.toggle('active')
     
 
@@ -149,14 +149,10 @@ btnMobile.addEventListener("touchstart", toggleMenu)
 
 
 
-
-let card1 = document.getElementById("card1")
-let carModel2 = document.getElementById("card2")
-let carModel3 = document.getElementById("card3")
-
-
-function flip1(){
-
-    card1.classList.toggle('flip')
-
+const navclose = document.getElementById("navId")
+var links = document.querySelectorAll(".menuDesktop");
+for (i = 0; i < links.length; i++) {
+  links[i].onclick = function() {
+    navclose.classList.remove('active');
+  }
 }
