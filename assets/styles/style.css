@@ -566,14 +566,14 @@ span{
 .newsletter h2{
     color: white;
     font-size: 40px;
-    
-    padding-bottom: 50px;
+    padding: 10px;
+    padding-bottom: 10px;
 
 }
 
 .newsletter p{
     max-width: 800px;
-    margin-top: 15px;
+    
     color: lightgray;
     padding: 20px;
 }
@@ -698,6 +698,21 @@ span{
     opacity: 1;
     transform: translate3d(0px , 0px, 0px);
 }
+
+
+[data-steps="appear4"]{
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+[data-animation="right4"]{
+    transform: translate3d(60px, 0, 0);
+}
+
+[data-animation="left4"]{
+    transform: translate3d(-50px, 0, 0);
+}
+
 
 /* TOP BUTTON */
 
