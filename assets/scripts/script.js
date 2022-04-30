@@ -127,7 +127,7 @@ window.addEventListener("scroll", function(){
 
 const targetNewsletter = document.querySelectorAll("[data-newsletter]")
 
-function animeScroll(){
+function animeScroll3(){
     const windowTop = window.pageYOffset + (window.innerHeight * 0.85) 
     targetNewsletter.forEach(function(element){
         if((windowTop) > element.offsetTop){
@@ -138,7 +138,7 @@ function animeScroll(){
 
 window.addEventListener("scroll", function(){
 
-    animeScroll()
+    animeScroll3()
 
 })
 
