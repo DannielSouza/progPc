@@ -109,7 +109,7 @@ window.addEventListener("scroll", function(){
 const target2 = document.querySelectorAll("[data-steps]")
 
 function animeScroll2(){
-    const windowTop = window.pageYOffset + (window.innerHeight * 0.70) 
+    const windowTop = window.pageYOffset + (window.innerHeight * 0.90) 
     target2.forEach(function(element){
         if((windowTop) > element.offsetTop){
             element.classList.add(animationClass)
@@ -160,15 +160,3 @@ function flip1(){
     card1.classList.toggle('flip')
 
 }
-
-/* function flip2(){
-
-    card2.classList.toggle('flip')
-
-}
-
-function flip3(){
-
-    card3.classList.toggle('flip')
-
-} */
