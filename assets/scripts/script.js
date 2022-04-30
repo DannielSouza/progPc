@@ -123,6 +123,24 @@ window.addEventListener("scroll", function(){
 
 })
 
+/* Newsletter animation */
+
+const targetNewsletter = document.querySelectorAll("[data-newsletter]")
+
+function animeScroll(){
+    const windowTop = window.pageYOffset + (window.innerHeight * 0.85) 
+    targetNewsletter.forEach(function(element){
+        if((windowTop) > element.offsetTop){
+            element.classList.add("animate")
+        }
+    })
+}
+
+window.addEventListener("scroll", function(){
+
+    animeScroll()
+
+})
 
 
 
