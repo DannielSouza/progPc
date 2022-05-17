@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
     height: 75px;
     border-bottom: 1px solid white;  
     transition: .5s;
-    animation: wallpaperanimation 45s infinite alternate;
+    animation: wallpaperanimation 45s linear infinite alternate;
 }
 
 @keyframes wallpaperanimation {
@@ -138,7 +138,7 @@ body::-webkit-scrollbar {
     background-attachment: fixed;
     background-position: center;
     clip-path: url(#svgMask);
-    animation: wallpaperanimation 45s infinite alternate;
+    animation: wallpaperanimation 45s linear infinite alternate;
 }
 
 @keyframes wallpaperanimation {
