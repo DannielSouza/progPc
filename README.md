@@ -13,8 +13,12 @@
 
 <h2>Informações</h2>
   
-Resumo: Esse foi o primeiro projeto em que eu de fato usei Javascript para deixar o site um pouco mais dinâmico, gostei muito de deixar as animações muito bem feitas(como a das estrelas no background e no header, a mudança de cores no fundo da sessão de etapas e também o flip das cartas).
+<h4>Resumo:</h4> Esse foi o primeiro projeto em que eu de fato usei Javascript para deixar o site um pouco mais dinâmico, gostei muito de deixar as animações muito bem feitas(como a das estrelas no background e no header, a mudança de cores no fundo da sessão de etapas e também o flip das cartas).
   
-Tecnologias usadas: HTML, CSS e Javascript
+ <br>
+ 
+<h4>Tecnologias usadas:</h4>
+ 
+ HTML, CSS e JavaScript puro
  
  
